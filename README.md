@@ -1,11 +1,7 @@
 ## Get Started
 1. git clone <repo>
 2. pip install -r requirements.txt
-3. # Mac/Linux
-python3 setup_db.py
-
-# Windows
-python setup_db.py
+3. Mac/Linux: python3 setup_db.py | Windows: python setup_db.py
 4. fastapi run main.py
 
 ## Testing
