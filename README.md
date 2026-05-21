@@ -17,6 +17,10 @@ Windows:
 python tests/test_jobs.py
 python tests/test_applications.py
 ## PostgreSQL
+Manually create DB:
+1. psql -U $(whoami) -d postgres
+2. CREATE DATABASE jobsdb
+
 Can confirm DB Creation manually with: 
 1. psql -U $(whoami) -d postgres
 2. \l
@@ -31,11 +35,7 @@ Print table contents:
 Jobs: SELECT * FROM Jobs;
 Applications: SELECT * FROM Applications;
 
-Manually create DB:
-Get to default DB with:
-psql -U $(whoami) -d postgres
---> Then "CREATE DATABASE jobsdb"
-
+------------------
 Two tables within db: Job & Application
 
 Models.py = structure of each table
