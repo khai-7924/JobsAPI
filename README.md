@@ -11,9 +11,11 @@
 "/docs" on server provides graphical interface to simplifying interacting with API
 
 Mac/Linux:
+
 python3 tests/test_jobs.py
 python3 tests/test_applications.py
 Windows:
+
 python tests/test_jobs.py
 python tests/test_applications.py
 ## PostgreSQL
