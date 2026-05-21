@@ -27,7 +27,9 @@ Delete DB with:
 Print table contents:
 1. psql -U $(whoami) -d postgres
 2. \c jobsdb
-3. Jobs: SELECT * FROM Jobs | Applications: SELECT * FROM Applications
+3.
+Jobs: SELECT * FROM Jobs;
+Applications: SELECT * FROM Applications;
 
 Manually create DB:
 Get to default DB with:
