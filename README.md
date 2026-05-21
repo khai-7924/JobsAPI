@@ -35,6 +35,7 @@ psql -U $(whoami) -d postgres
 --> Then "CREATE DATABASE jobsdb"
 
 Two tables within db: Job & Application
+
 Models.py = structure of each table
 
 
