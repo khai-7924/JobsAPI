@@ -39,6 +39,7 @@ Print table contents:
 2. \c jobsdb
 3.
 Jobs: SELECT * FROM Jobs;
+
 Applications: SELECT * FROM Applications;
 
 ------------------
