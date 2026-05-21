@@ -1,14 +1,18 @@
+<img width="1512" height="326" alt="image" src="https://github.com/user-attachments/assets/a6d0bb7d-e868-43d6-8cb9-ce4b70445d51" />
 ## Get Started
 1. git clone <repo>
 2. pip install -r requirements.txt
 3. Mac/Linux: python3 setup_db.py | Windows: python setup_db.py
 4. fastapi run main.py
 
+
 ## Testing
-# Mac/Linux
+"/docs" on server provides graphical interface to simplifying interacting with API
+
+Mac/Linux:
 python3 tests/test_jobs.py
 python3 tests/test_applications.py
-# Windows
+Windows:
 python tests/test_jobs.py
 python tests/test_applications.py
 ## PostgreSQL
@@ -22,10 +26,7 @@ Delete DB with:
 Print table contents:
 1. psql -U $(whoami) -d postgres
 2. \c jobsdb
-3. # Jobs
-SELECT * FROM Jobs
-# Applications
-SELECT * FROM Applications
+3. Jobs: SELECT * FROM Jobs | Applications: SELECT * FROM Applications
 
 Manually create DB:
 Get to default DB with:
