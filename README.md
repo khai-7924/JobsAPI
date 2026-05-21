@@ -13,11 +13,15 @@
 Mac/Linux:
 
 python3 tests/test_jobs.py
+
 python3 tests/test_applications.py
+
 Windows:
 
 python tests/test_jobs.py
+
 python tests/test_applications.py
+
 ## PostgreSQL
 Manually create DB:
 1. psql -U $(whoami) -d postgres
